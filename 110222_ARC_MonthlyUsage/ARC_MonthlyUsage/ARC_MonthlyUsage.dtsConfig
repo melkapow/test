@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="BRGL\mduarte" GeneratedFromPackageName="ARC_MonthlyUsage" GeneratedFromPackageID="{32E04AFA-551D-4DB2-8448-86991007B3D4}" GeneratedDate="10/22/2018 10:18:03 AM"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[ReportDB].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=dev-db03;Initial Catalog=Report010_ReedServices;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::ExternalClientCode].Properties[Value]" ValueType="String">
+    <ConfiguredValue>201501</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::FullFeedRun].Properties[Value]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::OutputFilePath].Properties[Value]" ValueType="String">
+    <ConfiguredValue>C:\SSISData\</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
